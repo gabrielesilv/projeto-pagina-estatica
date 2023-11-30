@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav id="navbar">
-            <a href="#" class="nav-brand">Gabriele Monteiro</a>
+            <a href="index.html" class="nav-brand">Gabriele Monteiro</a>
             <ul class="nav-list">
                 <li class="nav-item">
                     <a href="#">Trabalhos</a>
@@ -33,36 +33,90 @@
         <section id="banner">
             <div class="banner-content">
                 <h1 class="banner-content-title">Olá! Me chamo Gabriele, <br> e sou estudante de programação.</h1>
-                <p class="banner-content-subtitle">Tenho 21 anos, sou formada em Odontologia e atualmente estou em processo de migração de carreira para a área da programação.</p>
-                <button class="banner-content-btn">Download resume</button>
+                <p class="banner-content-subtitle">
+                    Tenho 21 anos, estudo Desenvolvimento Web e meu principal objetivo é ter minha primeira experiência no mercado tech, pois pretendo muito em breve cursar Análise e Desenvolvimento de Sistemas. Estou animada com a nova carreira e determinada a conhecê-la cada vez mais, pois sempre me identifiquei com a tecnologia e adoro aprender coisas novas.
+                </p>
+                <button class="banner-content-btn">
+                    <a href="https://www.linkedin.com/in/gabrielesilv/" target="_blank">Acesse a página do meu LinkedIn</a>
+                </button>
             </div>
-            <img src="img/img-perfil.jpg" alt="Gabriele Monteiro" class="banner-image" width="350">
+            <img src="img/img-perfil.jpg" alt="Gabriele Monteiro" class="banner-image" width="400">
         </section>
 
         <section id="posts">
             <div class="posts-content">
                 <div class="posts-content-header">
-                    <h2 class="section-title">Posts recentes</h2>
-                    <a href="#" class="view-all-link">Ver tudo</a>
+                    <h2 class="section-title">Resumo</h2>
+                    <a href="file:///C:/Users/Gabi/Downloads/GABRIELE%20MONTEIRO%20C%20DA%20SILVA%20-%20curri%CC%81culotech.pdf" class="view-all-link" target="_blank">Visualizar currículo</a>
                 </div>
             </div>
 
             <div class="posts-cards">
                 <div class="posts-card">
-                    <h3>Título</h3>
-                    <span>data</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius nobis, exercitationem aspernatur facilis quod sit sequi tempora dolorem quaerat maiores autem repellendus id.</p>
+                    <h3>Qualificações</h3><hr><br>
+                    <ul>
+                        <li>Pacote Office (Word, Excel, PowerPoint e Outlook)</li>
+                        <li>Comunicação</li>
+                        <li>Escrita</li>
+                        <li>Logística Empresarial</li>
+                        <li>Desenvolvimento Web</li>
+                    </ul>
                 </div>
                 <div class="posts-card">
-                    <h3>Título</h3>
-                    <span>data</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ab quod, quibusdam explicabo qui ratione laborum inventore alias officia tenetur id.</p>
+                    <h3>Formação Acadêmica</h3><hr><br>
+                    <span>
+                        <strong>Bacharelado em Odontologia</strong>
+                    </span>
+                    <p>Universidade Cruzeiro do Sul (UNICSUL) - 2020 a 2023</p>
+                </div>
+                <div class="posts-card">
+                    <h3>Experiência Profissional</h3><hr><br>
+                    <span>
+                        <strong>Otis Elevadores</strong>
+                    </span>
+                    <p>Cargo/função: Auxiliar Administrativo - 2020 a 2022</p><br>
+
+                    <span>
+                        <strong>GV Odontologia</strong>
+                    </span>
+                    <p>Cargo/função: Estagiária - 2022</p>
                 </div>
             </div>
         </section>
+
+        <section id="form">
+                <h2 class="title-form">Entre em contato comigo!</h2>
+                <form action="">
+                    <div>
+                        <label for="nome">Nome</label><br>
+                        <input name="nome" required="required" placeholder="Digite seu nome e sobrenome" type="text">
+                    </div>
+                    <div>
+                        <label for="email">E-mail</label><br>
+                        <input name="email" required="required" placeholder="Digite seu e-mail" type="email">
+                    </div>
+                    <div>
+                        <label for="celular">Celular</label><br>
+                        <input name="celular" placeholder="Digite seu celular" type="number">
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem</label><br>
+                        <textarea name="mensagem" id="" cols="20" rows="10" required="required" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="btn-enviar">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div>
+            <p>&copy Direitos Autorais. Inspirado e Desenvolvido por 
+                <a href="https://www.figma.com/community/file/882879599442878081/portfolio-ui-web-mobile" target="_blank">Figma</a>
+            </p>
+        </div>
+    </footer>
 </body>
 
 </html>
