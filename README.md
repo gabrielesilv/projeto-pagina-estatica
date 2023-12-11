@@ -15,7 +15,7 @@ Foi utilizado o Figma como referência do projeto.
 1. Barra de navegação
 2. [LinkedIn](https://www.linkedin.com/in/gabrielesilv/)
 3. Visualização completa do currículo
-4. Site do projeto utilizado como inspiração - [Figma](https://www.figma.com/community/file/882879599442878081/portfolio-ui-web-mobile)
+4. Site do projeto utilizado como referência - [Figma](https://www.figma.com/community/file/882879599442878081/portfolio-ui-web-mobile)
 
 * Responsividade
 
