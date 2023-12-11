@@ -1,6 +1,9 @@
-# Projeto Mais1Code - Portfólio
+# Projeto Mais1Code - Portfólio Profissional
 
-Página criada no decorrer do curso de Front-end da Mais1Code.
+Este documento foi criado no decorrer do curso de Desenvolvimento Web da Mais1Code como projeto final para análise de aprendizado. A página caracteriza um exemplo de um portfólio profissional, na qual é possível certificar trabalhos importantes e ter interações com o usuário por meio das tecnologias em que o autor possui domínio, já demonstrando seu currículo e o próprio conhecimento em tecnologia. Além disso, o projeto conta com responsividade, sendo possível ser acessado por vários tipo de telas.
+
+Foi utilizado o Figma para inspiração do projeto.
+
 
 ## Tecnologias Utilizadas
 * HTML
@@ -17,6 +20,7 @@ Página criada no decorrer do curso de Front-end da Mais1Code.
 * Responsividade
 
 ## HTML - tags
+* index.html
 
 ~~~
 <!DOCTYPE html>
@@ -61,6 +65,8 @@ Representa o conteúdo de um documento HTML, que vai englobar todas as tags.
 
 
 ### Seção Header (barra de navegação)
+Desenvolvido uma barra de navegação para a interação com o usuário, sendo possível acessar os links: Início, Trabalhos, Blog e Contato.
+
 ~~~
 <header/>
 ~~~
@@ -92,6 +98,8 @@ Define um item da lista.
 
 
 ### Seção Main (conteúdo principal)
+Parte que constitui uma breve apresentação do autor junto à uma imagem, além de um botão que irá encaminhar para a página do LinkedIn. Logo após, é possível observar uma área que contém cards com resumos profissionais, além de um hiperlink que dará acesso ao currículo profissional do autor. Por último, foi realizado um formulário para que o usuário possa entrar em contato com o profissional caso tenha alguma dúvida ou ofertas, por exemplo, sendo obrigatório o preenchimento dos seguintes campos: Nome, E-mail e Mensagem.
+
 ~~~
 <main/>
 ~~~
@@ -176,7 +184,24 @@ Define uma caixa de texto multilinha.
 
 
 ### Seção Footer (rodapé)
+Direitos autorais ao projeto do Figma utilizado como referência.
 ~~~
 <footer/>
 ~~~
-Tag específica que define o rodapé da página.
+Tag específica que define o rodapé da página. 
+
+
+## Imagens
+
+* [Background - formulário](/img/fundo-form.png)
+* [Foto perfil](/img/img-perfil.jpg)
+
+## CSS
+* style.css
+
+
+
+
+## Fontes utilizadas para descrição dos elementos
+* [W3Schools](https://www.w3schools.com/)
+* [MDN Web Docs](https://developer.mozilla.org/pt-BR/)
