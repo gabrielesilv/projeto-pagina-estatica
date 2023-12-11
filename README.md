@@ -2,7 +2,7 @@
 
 Este documento foi criado no decorrer do curso de Desenvolvimento Web da Mais1Code como projeto final para análise de aprendizado. A página caracteriza um exemplo de um portfólio profissional, na qual é possível certificar trabalhos importantes e ter interações com o usuário por meio das tecnologias em que o autor possui domínio, já demonstrando seu currículo e o próprio conhecimento em tecnologia. Além disso, o projeto conta com responsividade, sendo possível ser acessado por vários tipo de telas.
 
-Foi utilizado o Figma para inspiração do projeto.
+Foi utilizado o Figma como referência do projeto.
 
 
 ## Tecnologias Utilizadas
