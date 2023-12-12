@@ -68,6 +68,21 @@ header #navbar a:hover {
     transition: color 0.3s;
 }
 
+header #navbar .hamburguer-menu {
+    display: none;
+    color: rgb(114, 103, 209);
+}
+
+@media (max-width: 740px) {
+    header #navbar .hamburguer-menu {
+        display: block;
+    }
+
+    header #navbar .nav-list {
+        display: none;
+    }
+}
+
 /* ! seção banner */
 main {
     margin-top: 6rem;
@@ -254,6 +269,7 @@ section#form {
 }
 
 #form form label {
+    display: block;
     font-size: 20px;
     font-weight: 600;
 }

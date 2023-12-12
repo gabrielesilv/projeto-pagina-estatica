@@ -5,9 +5,11 @@ Este documento foi criado no decorrer do curso de Desenvolvimento Web da Mais1Co
 Foi utilizado o Figma como referência do projeto.
 
 
-## Tecnologias Utilizadas
+## Tecnologias e sites utlizados como referências
 * HTML
 * CSS
+* [Google Fonts](https://fonts.google.com/specimen/Heebo?query=heebo)
+* [Get CSS Scan - Box-shadow examples](https://getcssscan.com/css-box-shadow-examples)
 * Figma
 
 ## Funcionalidades 
@@ -17,7 +19,8 @@ Foi utilizado o Figma como referência do projeto.
 3. Visualização completa do currículo
 4. Site do projeto utilizado como referência - [Figma](https://www.figma.com/community/file/882879599442878081/portfolio-ui-web-mobile)
 
-* Responsividade
+* Formulário
+* Responsividade - Media Querie
 
 ## HTML - tags
 * index.html
@@ -192,16 +195,12 @@ Tag específica que define o rodapé da página.
 
 
 ## Imagens
-
 * [Background - formulário](/img/fundo-form.png)
 * [Foto perfil](/img/img-perfil.jpg)
 
 ## CSS
 * style.css
 
-
-
-
-## Fontes utilizadas para descrição dos elementos
+## Bibliografias utilizadas para a descrição dos elementos
 * [W3Schools](https://www.w3schools.com/)
 * [MDN Web Docs](https://developer.mozilla.org/pt-BR/)
